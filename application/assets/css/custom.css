@@ -1,0 +1,68 @@
+/* *****************************************************
+
+    ** Custom Stylesheet **
+
+    Any custom styling you want to apply should be
+    defined here.
+
+***************************************************** */
+
+section#main-menu {
+    margin-top: 67px;
+    border-bottom: 1px solid #e7e7e7;
+}
+.navbar-main li#Secondary_Navbar-Account {
+    background-color: #f67c0a;
+}
+
+.navbar-main .navbar-nav>.active>a, .navbar-main .navbar-nav>.active>a:focus, .navbar-main .navbar-nav>.active>a:hover, .navbar-main .navbar-nav>.open>a, .navbar-main .navbar-nav>.open>a:focus, .navbar-main .navbar-nav>.open>a:hover, .navbar-main .navbar-nav>li>a:focus, .navbar-main .navbar-nav>li>a:hover {
+    background-color: #f67c0a;
+    color: #fff;
+}
+
+.navbar-main li#Secondary_Navbar-Account > a {
+    border-bottom: 3px solid #f67c0a;
+    color: #fff;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+    color: #fff;
+}
+.navbar-default nav.navigation .navbar-nav>li>a:hover {
+    color: #f67c0a;
+}
+.nav .open>a, .nav .open>a:focus, .nav .open>a:hover {
+    border-color: #f67c0a;
+}
+
+#main-body .panel-default > .panel-heading, #main-body .panel-success > .panel-heading {
+    color: #555;
+    border-color: #eee;
+    background: #f5f5f5;
+    border-radius: 3px 3px 0 0;
+    -webkit-border-radius: 3px 3px 0 0;
+    -moz-border-radius: 3px 3px 0 0;
+    border-bottom: 2px solid #eeeeee;
+}
+.dropdown:hover .dropdown-menu {
+    border: 1px solid #e7e7e7;
+}
+
+div.header-lined h1 {
+    color: #555;
+}
+.nopadding {
+    padding: 0;
+}
+section.section-wrap.services .row.hidden-xs .text-center > a.btn.btn-primary {
+    border-radius: 0;
+    background: #F67C0A;
+    border: 1px solid #A75101;
+    border-bottom: 2px solid #A75101;
+    color: #fff;
+    width: auto;
+    transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+}
